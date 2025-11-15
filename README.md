@@ -9,8 +9,8 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
+- Nome: Arthur Lima Mendes
+- Matricula: 901170
 - Proposta de projeto escolhida:
 - Breve descrição sobre seu projeto:
 

@@ -1,18 +1,64 @@
 {
-  "usuarios": [
+  "aventuras": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Trilha da Pedra do Baú",
+      "localizacao": "São Bento do Sapucaí, SP",
+      "dificuldade": "Moderada",
+      "descricao_breve": "Uma vista panorâmica espetacular espera por você no topo.",
+      "conteudo_completo": "A Trilha da Pedra do Baú é uma das mais famosas do estado, oferecendo trechos de escalaminhada com cabos de aço. É uma experiência desafiadora, mas a recompensa no topo, com a vista 360°, vale o esforço.",
+      "imagem_principal": "imagens/pedrabau.jpeg",
+      "imagem_card": "imagens/pedrabau2.jpg",
+      "destaque": true,
+      "atracoes": [
+        { "titulo": "Vista do Cume", "imagem": "imagens/pedrabau3.jpg" },
+        { "titulo": "Trecho com Cabos", "imagem": "imagens/pedrabau4.jpg" }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Pico da Bandeira",
+      "localizacao": "Serra do Caparaó, MG/ES",
+      "dificuldade": "Difícil",
+      "descricao_breve": "Conquiste o terceiro ponto mais alto do Brasil e veja o nascer do sol.",
+      "conteudo_completo": "O Pico da Bandeira é um desafio de alta altitude, exigindo preparo físico e equipamentos adequados para o frio. A subida noturna é popular para ver o sol nascer do cume, um espetáculo inesquecível.",
+      "imagem_principal": "imagens/picobandeira.jpeg",
+      "imagem_card": "imagens/picobandeira2.jpeg",
+      "destaque": true,
+      "atracoes": [
+        { "titulo": "Noite Estrelada", "imagem": "imagens/picobandeira4.jpg" },
+        { "titulo": "Base da Montanha", "imagem": "imagens/picobandeira3.jpeg" }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Camping Vale do Pati",
+      "localizacao": "Chapada Diamantina, BA",
+      "dificuldade": "Extrema (Trekking)",
+      "descricao_breve": "Experiência imersiva no coração da Chapada Diamantina.",
+      "conteudo_completo": "O Vale do Pati exige um trekking de múltiplos dias. A área é remota e a hospedagem é feita em casas de nativos (campings rústicos). Exige planejamento logístico rigoroso e guia local.",
+      "imagem_principal": "imagens/pati.jpeg",
+      "imagem_card": "imagens/pati2.jpeg",
+      "destaque": true,
+      "atracoes": [
+        { "titulo": "Cachoeira do Funil", "imagem": "imagens/pati3.jpg" },
+        { "titulo": "Vista do Morro", "imagem": "imagens/pati4.jpg" }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Camping da Pousada da Praia",
+      "localizacao": "Paraty, RJ",
+      "dificuldade": "Fácil",
+      "descricao_breve": "Camping com infraestrutura completa perto do mar.",
+      "conteudo_completo": "Perfeito para quem busca conforto e proximidade com o mar. O camping oferece banheiros limpos, energia elétrica, área de convivência e segurança.",
+      "imagem_principal": "imagens/praia.jpeg",
+      "imagem_card": "imagens/praia2.jpeg",
+      "destaque": false,
+      "atracoes": [
+        { "titulo": "Vista da Praia", "imagem": "imagens/praia3.jpg" },
+        { "titulo": "Área de Churrasco", "imagem": "imagens/praia4.jpg" }
+      ]
     }
   ]
 }

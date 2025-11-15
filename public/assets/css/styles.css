@@ -1,0 +1,65 @@
+
+
+/* Cor de fundo do corpo para dar contraste */
+body {
+    background-color: #f8faf8; /* Cinza bem claro */
+}
+
+/* Estilo do Cabeçalho (Fundo verde como nas imagens) */
+.site-header {
+    background-color: #28a745 !important; /* Verde principal do Bootstrap (success) */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+  
+    z-index: 1050; /* Garante que fique acima do conteúdo principal */
+    pointer-events: auto; /* Garante que o mouse possa interagir com o header */
+}
+
+/* Garante que os links recebam o evento de clique */
+.main-nav a {
+    position: relative; 
+    z-index: 1051;
+    pointer-events: auto;
+}
+
+/* Ajuste para imagens grandes no carrossel */
+.carousel-img {
+    height: 450px; /* Altura fixa para carrossel no desktop */
+    object-fit: cover;
+}
+
+/* Ajuste para garantir que a imagem não vaze em telas menores */
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 300px; /* Altura menor no mobile */
+    }
+}
+
+/* Ajuste para imagens dos cards na home */
+.card-img {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Ajuste para imagens das fotos vinculadas */
+.fotos-vinculadas-img {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Estilo para garantir que o texto do carrossel seja legível */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    padding: 1rem;
+    border-radius: 8px;
+    bottom: 20px;
+}
+
+/* Estilos do Rodapé */
+.bg-dark {
+    background-color: #343a40 !important; /* Cinza escuro */
+}
+
+.site-footer .social-links a {
+    color: #17a2b8;
+}
