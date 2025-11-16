@@ -22,7 +22,7 @@ A função carregarDadosE MontarGrafico() faz uma requisição fetch (GET) à AP
 
 
 <<  COLOQUE A IMAGEM TELA 1 AQUI >>
-![Tela 1:](public/printatual/printhome.jpeg.jpeg)
+![Tela 1:](public/printatual/printhome.jpeg.)
 
 <<  COLOQUE A IMAGEM TELA 2 AQUI >>
 ![Tela 2: ](public/printatual/grafico.png)
